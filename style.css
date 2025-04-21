@@ -116,7 +116,7 @@ display: inline-block;
     display: flex;
 }
 .logo6{
-    margin: 50px;
+    margin: 40px;
     height: 0px;
     width: 150px;
     background-color: rgb(255, 255, 255);
@@ -405,11 +405,12 @@ display: flex;
 /* form */
 
 .formmain{
-    height: 500px;
+    height: 650px;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(225, 215, 215);
     display: flex;
     justify-content: space-between;
+    border-radius:20px ;
 
 }
 .form{
@@ -418,7 +419,7 @@ display: flex;
  font-size: 20px;
     height: 400px;
     width: 70%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(225, 215, 215);
 }
 .inputbox{
     margin-top: 20px;
@@ -427,8 +428,9 @@ display: flex;
     border-radius: 10px;
 }
 .radio1{
-    height: 20px;
+    height: 25px;
     width: 40px;
+    
 }
 textarea{
     margin-top: 20px;
@@ -440,7 +442,7 @@ border-radius: 10px;
     margin-top: 80px;
     height: 500px;
     width: 30%;
-    background-color: rgb(255, 255, 255)
+    background-color: rgb(225, 215, 215);
 }
 .formbotton{
     height: 45px;
@@ -464,6 +466,7 @@ border-radius: 10px;
     color: white;
     border-radius: 10px;
     background-color: rgb(0, 0, 0);
+    border-radius: 40px;
 } 
 
 .mainfooter{
@@ -472,29 +475,31 @@ border-radius: 10px;
     width: 100%;
     background-color: black;
     color: white;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 .footerlogo{
-    margin-top: 13px;
+    margin-top: 44px;
     margin-left: 35px;
     display: inline-block;
     height:40px;
-    width:30px;
+    width:50px;
     color: white;
     /* background-color: blue; */
 }
 .footerlogotext{
-    padding: 15px;
+    margin-left: 5px;
+    margin-top:40px ;
     font-size: 30px;
     height: 50px;
-    width: 100px;
+    width: 150px;
     /* background-color: rgb(0, 223, 223); */
 }
 .footernavbar {
+    margin-top: 25px;
     display: flex;
     margin-left:180px;
     height: 80px;
-    width: 709%;
+    width: 89%;
     /* background-color: rgb(245, 169, 169); */
 }
 .footerul{
@@ -509,11 +514,11 @@ display: inline-block;
 color: #ffffff;
 }
 .footericon{
-    justify-content: space-between;
+    gap: 20px;
     display: flex;
-    margin-left: 100px;
+    margin-left: 80px;
     height: 50px;
-    width: 170px;
+    width: 190px;
     margin-top: 12px;
     background-color: #000000;
 }
@@ -523,9 +528,6 @@ color: #ffffff;
 
 }
 .icon1{
-    /* background-image: url(./images/Social\ icon\ \(1\).png); */
-    background-size: cover;
-    background-repeat: no-repeat;
     border-radius: 100%;
     background-color: rgb(0, 0, 0);
 
@@ -543,18 +545,21 @@ color: #ffffff;
 
 
 .footercontact{
+    margin-top:50px ;
     display: flex;
     height: 300px;
     width: 100%;
     background-color: rgb(0, 0, 0);
 }
 .footercontacttext{
+    margin-top: 50px;
     height: 250px;
     width: 40%;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
 .footercontactemail{
+    margin-top: 40px;
     margin-left: 50px;
     height: 200px;
     width: 50%;
